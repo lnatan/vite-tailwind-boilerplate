@@ -23,3 +23,4 @@ define('IS_VITE_DEVELOPMENT', true);
 include "inc/inc.vite.php";
 include "inc/disable.php";
 include "inc/menu.php";
+include "inc/render_view.php";
