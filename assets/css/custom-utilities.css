@@ -1,0 +1,9 @@
+body {
+    --background-color: grey;
+    --color: red;
+}
+
+.current-menu-item,
+.current_page_item {
+    @apply underline;
+}
