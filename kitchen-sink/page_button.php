@@ -14,7 +14,8 @@
     array(
       'kind' => 'primary',
       'size' => 'small',
-      'text' => 'Button text'
+      'text' => 'Disabled',
+      'disabled' => true
     ),
     array(
       'kind' => 'secondary',
@@ -24,10 +25,11 @@
     array(
       'kind' => 'secondary',
       'size' => 'small',
-      'text' => 'Button text'
+      'text' => 'Disabled',
+      'disabled' => true
     ),
     array(
-      'kind' => 'Link',
+      'kind' => 'link',
       'size' => 'big',
       'text' => 'Button text',
       'icon' => 'play-arrow'
@@ -41,14 +43,6 @@
   <?php render_view('button', $buttons[2]) ?>
   <?php render_view('button', $buttons[3]) ?>
   <?php render_view('button', $buttons[4]) ?>
-</div>
-
-
-
-<h2>Primary Big Button</h2>
-<div class="flex items-end space-x-6">
-  <button type="button" class="bg-neutral-900 text-white text-center text-base py-3 px-10 rounded-2xl hover:bg-neutral-600 active:bg-neutral-700">Button</button>
-  <button type="button" disabled class="bg-neutral-900 text-white text-center text-base py-3 px-10 rounded-2xl hover:bg-neutral-600 disabled:bg-neutral-400 disabled:pointer-events-none">Button</button>
 </div>
 
 <?php get_footer() ?>

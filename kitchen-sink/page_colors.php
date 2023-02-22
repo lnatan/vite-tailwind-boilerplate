@@ -8,8 +8,8 @@
 
 <h2 class="col-span-2">Bg colors</h2>
 
-<div class="h-36 bg-zinc-100 rounded-lg p-2 mb-4">
-  <span>color 'zinc-100' as <span class="font-bold"> Surface Secondary</span></span>
+<div class="h-36 bg-neutral-100 rounded-lg p-2 mb-4">
+  <span>color 'neutral-100' as <span class="font-bold"> Surface Secondary</span></span>
 </div>
 
 <div class="h-36 bg-neutral-900 rounded-lg p-2 mb-4">

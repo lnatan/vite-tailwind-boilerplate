@@ -1,26 +1,23 @@
 <?php
-  $class = 'flex items-center ';
+  $class = 'flex items-center';
 
-if ($kind === 'primary') {
-  $class .= 'bg-neutral-900 text-white text-center rounded-2xl hover:bg-neutral-600 active:bg-neutral-70 disabled:bg-neutral-400 disabled:pointer-events-none';
-} elseif ($kind === 'secondary') {
-  $class .= ' border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white';
-} elseif ($kind === 'link') {
-  $class .= ' hover:text-black';
-}
-
-if ($size === 'big') {
-  $class .= ' text-base py-3 px-10';
-} else {
-  $class .= ' text-sm py-3 px-11';
-}
+  if ($kind === 'primary') {
+    $class .= ' font-wide text-white rounded-2xl bg-neutral-900 hover:bg-neutral-600 active:bg-neutral-700 disabled:bg-neutral-400 disabled:pointer-events-none';
+    $class .= $size === 'big' ?'  text-base py-3 px-10' : ' text-sm py-3 px-11';
+  } elseif ($kind === 'secondary') {
+    $class .= ' font-wide text-black rounded-2xl border border-neutral-900 bg-white hover:bg-neutral-200 active:bg-neutral-300 disabled:opacity-40 disabled:pointer-events-none';
+    $class .= $size === 'big' ?'  text-base py-3 px-10' : ' text-sm py-3 px-11';
+  } elseif ($kind === 'link') {
+    $class .= ' align-bottom hover:text-neutral-700 active:text-neutral-800 disabled:opacity-40 disabled:pointer-events-none';
+    $class .= $size === 'big' ?' text-base' : ' text-sm';
+  }
 ?>
 <button 
   type="<?= $type ?: 'button' ?>" 
-  <?= isset($disabled) ?? $disabled ?> 
+  <?php echo $disabled? 'disabled': '' ?>
   class="<?= $class ?>"
 >
-  <span><?= $text ?> </span>
+  <span><?= $text ?></span>
   <?php if (!empty($icon)) : ?>
     <span class="svg-icon svg-icon-24 svg-icon-<?= $icon ?>"></span>
   <?php endif ?>

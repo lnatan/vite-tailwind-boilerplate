@@ -9,7 +9,7 @@
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
 
-<div class="headline inline-block font-bold text-5xl py-2">Heading Hero Text</div>
+<div class="gradient-new inline-block font-wide font-bold text-5xl py-2">Heading Hero Text</div>
 
 <div>
     <a href="#" class="underline">Link to another page</a>

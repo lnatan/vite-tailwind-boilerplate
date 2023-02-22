@@ -17,6 +17,18 @@
     font-weight: 600;
     src: url(/assets/fonts/Gilroy/Gilroy-SemiBold.woff2) format("woff2");
   }
+  @font-face {
+    font-family: "Heading-Pro-Wide";
+    font-style: normal;
+    font-weight: 400;    
+    src: url(/assets/fonts/Heading-Pro-Wide/Heading-Pro-Wide-Book.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Heading-Pro-Wide";
+    font-style: normal;
+    font-weight: 900;
+    src: url(/assets/fonts/Heading-Pro-Wide/Heading-Pro-Wide-Bold.woff2) format("woff2");
+  }
   h1 {
     @apply text-2xl sm:text-4xl font-medium;
   }

@@ -17,11 +17,17 @@ module.exports = {
     },
     container: {
       center: true,
+      padding: {
+        DEFAULT: '1.25rem'
+      },
     },
     fontFamily: {
       sans: ['Gilroy', 'system-ui', 'sans-serif']
     },
     extend: {
+      fontFamily: {
+        wide: 'Heading-Pro-Wide'
+      }
     }
   },
   plugins: []
