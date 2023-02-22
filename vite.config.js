@@ -51,8 +51,18 @@ export default defineConfig({
       output: {
           entryFileNames: `[name].js`,
           chunkFileNames: `[name].js`,
-          assetFileNames: `[name].[ext]`
-      }
+          assetFileNames: ({name}) => {
+            if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')){
+              return 'assets/images/[name].[ext]';
+            }
+
+            if (/\.woff2$/.test(name ?? '')) {
+              return 'assets/fonts/[name].[ext]';   
+            }
+               
+            return '[name].[ext]';
+          },
+      },
     },
 
     // minifying switch

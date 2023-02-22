@@ -1,4 +1,22 @@
 @layer base {
+  @font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/Gilroy/Gilroy-Regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/assets/fonts/Gilroy/Gilroy-Medium.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/assets/fonts/Gilroy/Gilroy-SemiBold.woff2) format("woff2");
+  }
   h1 {
     @apply text-2xl sm:text-4xl font-medium;
   }

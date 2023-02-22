@@ -24,7 +24,7 @@ $cards = array(
     ),
 );
 ?>
-      <?php render_view('cards_grid', $cards) ?>
+<?php render_view('cards_grid', $cards) ?>
 
 
 

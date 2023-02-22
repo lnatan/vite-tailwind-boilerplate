@@ -1,10 +1,17 @@
 {
+  "assets/fonts/Gilroy/Gilroy-Regular.woff2": {
+    "file": "assets/fonts/Gilroy-Regular.woff2",
+    "src": "assets/fonts/Gilroy/Gilroy-Regular.woff2"
+  },
   "main.js": {
     "file": "main.js",
     "src": "main.js",
     "isEntry": true,
     "css": [
       "main.css"
+    ],
+    "assets": [
+      "assets/fonts/Gilroy-Regular.woff2"
     ]
   },
   "main.css": {

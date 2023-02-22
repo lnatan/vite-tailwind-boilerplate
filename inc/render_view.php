@@ -1,6 +1,6 @@
 
 <?php
-define('VIEWS_DIST', 'inc/views/');
+define('VIEWS_DIST', 'templates/components/');
 
 // defining some base urls and paths
 define('VIEWS_PATH', get_template_directory() . '/' . VIEWS_DIST);

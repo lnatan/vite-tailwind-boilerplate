@@ -3,9 +3,9 @@
 // Exit if accessed directly
 if (!defined('ABSPATH'))
     exit;
-foreach (glob(get_template_directory() . '/templates/components/*.php') as $file) {
-    require_once $file;
-}
+// foreach (glob(get_template_directory() . '/templates/components/*.php') as $file) {
+//     require_once $file;
+// }
 
 // require(get_template_directory() . '/templates/components/button.php');
 // require(get_template_directory() . '/templates/components/card.php');

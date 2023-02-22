@@ -18,6 +18,9 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+      sans: ['Gilroy', 'system-ui', 'sans-serif']
+    },
     extend: {
     }
   },

@@ -28,3 +28,23 @@ body {
 ul#main-menu li {
     @apply px-2 hover:underline;
 }
+
+.svg-icon {
+    display: inline-block;    
+    width: 14px;
+    height: 14px;
+}
+.svg-icon-24 {
+    width: 24px;
+    height: 24px;
+}
+
+.svg-icon-poker {    
+    background: url(/assets/icons/poker.svg);
+    background-size: contain;
+}
+
+.svg-icon-play-arrow {
+    background: url(/assets/icons/play-arrow.svg);
+    background-size: contain;
+}
