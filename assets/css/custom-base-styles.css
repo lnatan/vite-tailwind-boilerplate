@@ -41,4 +41,8 @@
   h4 {
     @apply text-base sm:text-lg font-medium;
   }
+  button:disabled,
+  a.disabled {
+      @apply opacity-40 pointer-events-none;
+  }
 }

@@ -9,7 +9,7 @@
     array(
       'kind' => 'primary',
       'size' => 'big',
-      'text' => 'Button text'
+      'text' => 'Button text',
     ),
     array(
       'kind' => 'primary',
@@ -20,19 +20,22 @@
     array(
       'kind' => 'secondary',
       'size' => 'big',
-      'text' => 'Button text'
+      'text' => 'Button text',
+      'link' => '/'
     ),
     array(
       'kind' => 'secondary',
       'size' => 'small',
       'text' => 'Disabled',
+      'link' => '/',
       'disabled' => true
     ),
     array(
-      'kind' => 'link',
+      'kind' => 'ghost',
       'size' => 'big',
       'text' => 'Button text',
-      'icon' => 'play-arrow'
+      'icon' => 'play-arrow',
+      'link' => '/'
     ),
   );
 ?>
