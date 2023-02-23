@@ -10,7 +10,7 @@ function get_menu_header()
   wp_nav_menu(array(
     'menu' => 'Main Menu',
     'menu_class' => 'flex',
-    'menu_id' => 'main-menu',
+    'menu_id' => 'header-menu',
     'container' => false
   ));
 }
